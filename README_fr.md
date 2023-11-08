@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+Act runner est un coureur pour Gitea basé sur le fork d'act de Gitea.
 
 
 **Version incluse :** 0.2.6~ynh1
@@ -27,7 +27,6 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Documentations et ressources
 
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://gitea.com/gitea/act_runner>
 * YunoHost Store: <https://apps.yunohost.org/app/gitea-runner>
 * Signaler un bug : <https://github.com/YunoHost-Apps/gitea-runner_ynh/issues>

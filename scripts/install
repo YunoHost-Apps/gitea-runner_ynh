@@ -45,9 +45,9 @@ yunohost service add $app --description="Runner for Gitea" --log="/var/log/$app/
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-pushd $install_dir
-	./act_runner register --instance $gitea_url --token $token --no-interactive
-popd
+#pushd $install_dir
+#	./act_runner register --instance $gitea_url --token $token --no-interactive
+#popd
 
 #=================================================
 # GENERIC FINALIZATION

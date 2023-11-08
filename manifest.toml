@@ -12,9 +12,7 @@ version = "0.2.6~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
-website = "https://example.com"
-demo = "https://demo.example.com"
+license = "MIT"
 admindoc = "https://yunohost.org/packaging_apps"
 code = "https://gitea.com/gitea/act_runner"
 

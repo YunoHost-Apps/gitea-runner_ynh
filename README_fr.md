@@ -21,15 +21,12 @@ Ceci est une fausse description des fonctionalités de l'app
 
 **Version incluse :** 0.2.6~ynh1
 
-**Démo :** https://demo.example.com
-
 ## Captures d’écran
 
 ![Capture d’écran de Gitea Runner](./doc/screenshots/example.jpg)
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://example.com>
 * Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://gitea.com/gitea/act_runner>
 * YunoHost Store: <https://apps.yunohost.org/app/gitea-runner>

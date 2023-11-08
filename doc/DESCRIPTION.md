@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Act runner is a runner for Gitea based on Gitea fork of act.

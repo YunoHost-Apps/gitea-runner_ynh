@@ -13,7 +13,6 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://gitea.com/gitea/act_runner"
 
 [integration]

@@ -33,9 +33,9 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.init_main_permission]
-    type = "group"
-    default = "visitors"
+    #[install.init_main_permission]
+    #type = "group"
+    #default = "visitors"
 
     [install.token]
     ask.en = "This token can be retrieved at this location: http://192.168.8.8:3000/admin/actions/runners"
@@ -43,13 +43,10 @@ ram.runtime = "50M"
     type = "string"
 
     [install.gitea_url]
-    ask.en = "Please enter the Gitea URL"
-    ask.fr = "Veuillez entrer l'URL du coordinateur Gitea"
+    ask.en = "Please enter Gitea URL"
+    ask.fr = "Veuillez entrer l'URL de Gitea"
     type = "string"
     example = "https://gitea.com/"
-
-    [install.admin]
-    type = "user"
 
 [resources]
 

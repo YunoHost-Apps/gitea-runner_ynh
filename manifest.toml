@@ -41,12 +41,13 @@ ram.runtime = "50M"
     ask.en = "This token can be retrieved at this location: http://192.168.8.8:3000/admin/actions/runners"
     ask.fr = "Ce token peut être récupéré à cet emplacement : http://192.168.8.8:3000/admin/actions/runners"
     type = "string"
+    #example = "xxxx"
 
     [install.gitea_url]
     ask.en = "Please enter Gitea URL"
     ask.fr = "Veuillez entrer l'URL de Gitea"
     type = "string"
-    example = "https://gitea.com/"
+    #example = "https://gitea.com/"
 
 [resources]
 
@@ -70,4 +71,4 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.ports]
+    #[resources.ports]

@@ -33,10 +33,6 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    #[install.init_main_permission]
-    #type = "group"
-    #default = "visitors"
-
     [install.token]
     ask.en = "This token can be retrieved at this location: http://192.168.8.8:3000/admin/actions/runners"
     ask.fr = "Ce token peut être récupéré à cet emplacement : http://192.168.8.8:3000/admin/actions/runners"

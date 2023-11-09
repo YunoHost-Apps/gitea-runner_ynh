@@ -18,11 +18,11 @@ code = "https://gitea.com/gitea/act_runner"
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
-ldap = false
+ldap = "not_relevant"
 
-sso = false
+sso = "not_relevant"
 
 disk = "50M"
 ram.build = "50M"
@@ -33,8 +33,8 @@ ram.runtime = "50M"
     type = "domain"
 
     [install.token]
-    ask.en = "This token can be retrieved at this location: http://192.168.8.8:3000/admin/actions/runners"
-    ask.fr = "Ce token peut être récupéré à cet emplacement : http://192.168.8.8:3000/admin/actions/runners"
+    ask.en = "This token can be retrieved at this location: http://gitea.domain.tld/admin/actions/runners"
+    ask.fr = "Ce token peut être récupéré à cet emplacement : http://gitea.domain.tld/admin/actions/runners"
     type = "string"
     example = "xxxx"
 

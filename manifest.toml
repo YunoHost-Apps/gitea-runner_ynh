@@ -12,20 +12,17 @@ version = "0.2.6~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
-website = "https://example.com"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
+license = "MIT"
 code = "https://gitea.com/gitea/act_runner"
 
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
-ldap = false
+ldap = "not_relevant"
 
-sso = false
+sso = "not_relevant"
 
 disk = "50M"
 ram.build = "50M"
@@ -35,23 +32,17 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.init_main_permission]
-    type = "group"
-    default = "visitors"
-
     [install.token]
-    ask.en = "This token can be retrieved at this location: http://192.168.8.8:3000/admin/actions/runners"
-    ask.fr = "Ce token peut être récupéré à cet emplacement : http://192.168.8.8:3000/admin/actions/runners"
+    ask.en = "This token can be retrieved at this location: http://gitea.domain.tld/admin/actions/runners"
+    ask.fr = "Ce token peut être récupéré à cet emplacement : http://gitea.domain.tld/admin/actions/runners"
     type = "string"
+    example = "xxxx"
 
     [install.gitea_url]
-    ask.en = "Please enter the Gitea URL"
-    ask.fr = "Veuillez entrer l'URL du coordinateur Gitea"
+    ask.en = "Please enter Gitea URL"
+    ask.fr = "Veuillez entrer l'URL de Gitea"
     type = "string"
     example = "https://gitea.com/"
-
-    [install.admin]
-    type = "user"
 
 [resources]
 
@@ -75,4 +66,10 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.ports]
+    [resources.apt]
+    packages = "ca-certificates, git, curl, tar"
+
+    extras.docker.repo = "https://download.docker.com/linux/debian bullseye stable"
+    extras.docker.key = "https://download.docker.com/linux/debian/gpg"
+    extras.docker.packages = "docker-ce, docker-ce-cli, containerd.io"
+    

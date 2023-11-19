@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Act runner est un coureur pour Gitea basé sur le fork d'act de Gitea.

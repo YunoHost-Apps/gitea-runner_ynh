@@ -11,6 +11,7 @@ source /usr/share/yunohost/helpers
 
 gitea_url=$YNH_APP_ARG_GITEA_URL
 token=$YNH_APP_ARG_TOKEN
+docker_image="alpine:latest"
 
 #=================================================
 # APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)

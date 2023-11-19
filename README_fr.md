@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Act runner est un coureur pour Gitea basé sur le fork d'act de Gitea.
+Act runner est un exécuteur pour Gitea basé sur le fork d'act de Gitea.
 
 
 **Version incluse :** 0.2.6~ynh1
